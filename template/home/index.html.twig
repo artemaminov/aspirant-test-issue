@@ -4,6 +4,7 @@
 
 {% block content %}
     <div class="container">
+        <span>Current date and time: {{ datestring }}</span>
         <h1 class="mt-5 mb-4">{{ trailers | length }} iTunes Movie trailers</h1>
         <table class="table table-bordered">
             {% for trailer in trailers %}
