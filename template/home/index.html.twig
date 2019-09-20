@@ -13,5 +13,12 @@
                 </tr>
             {% endfor %}
         </table>
+        <form>
+            <button>Get Last Trailers</button>
+        </form>
+        <div class="systeminfo">
+            <span>Controller Class: {{ systeminfo['class'] }}</span>
+            <span>Controller method: {{ systeminfo['method'] }}</span>
+        </div>
     </div>
 {% endblock %}
