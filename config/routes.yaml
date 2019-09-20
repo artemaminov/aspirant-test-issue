@@ -1,5 +1,5 @@
 main:
-  method: 'get'
+  method: get
   path: ~
   controller: App\Controller\HomeController
   action: index
