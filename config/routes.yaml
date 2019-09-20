@@ -3,4 +3,8 @@ main:
   path: ~
   controller: App\Controller\HomeController
   action: index
-
+getTrailers:
+  method: get
+  path: gettrailers
+  controller: App\Controller\HomeController
+  action: index
