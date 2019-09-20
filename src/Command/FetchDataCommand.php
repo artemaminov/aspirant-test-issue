@@ -25,7 +25,7 @@ use Symfony\Component\Console\Style\SymfonyStyle;
  */
 class FetchDataCommand extends Command
 {
-    private const SOURCE = 'https://trailers.apple.com/trailers/home/rss/newtrailers.rss';
+    const SOURCE = 'https://trailers.apple.com/trailers/home/rss/newtrailers.rss';
 
     /**
      * @var string
