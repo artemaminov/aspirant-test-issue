@@ -165,7 +165,7 @@ class FetchDataCommand extends Command
             $this->logger->info('Create new Movie', ['title' => $title]);
             $item = new Movie();
         } else {
-            $this->logger->info('Move found', ['title' => $title]);
+            $this->logger->info('Movie found', ['title' => $title]);
         }
 
         if (!($item instanceof Movie)) {
