@@ -14,6 +14,7 @@
     "php": ">=7.2",
     "ext-json": "*",
     "ext-simplexml": "*",
+    "dg/rss-php": "^1.3",
     "doctrine/orm": "^2.6",
     "monolog/monolog": "^1.24",
     "php-http/client-common": "^2.0",

@@ -13,6 +13,7 @@ use Psr\Http\Message\ServerRequestInterface;
 use Slim\Exception\HttpBadRequestException;
 use Slim\Interfaces\RouteCollectorInterface;
 use Twig\Environment;
+use Feed;
 
 /**
  * Class HomeController.
